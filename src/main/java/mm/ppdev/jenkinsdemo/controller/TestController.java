@@ -11,6 +11,6 @@ public class TestController {
 
   @GetMapping
   public String getMessage(@RequestParam ("message") String message){
-    return message;
+    return message+ " УРА";
   }
 }
